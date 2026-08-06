@@ -1,0 +1,11 @@
+{
+  "68be2b1755144754ce8835d0 name": "Old Friend",
+  "68be2b1755144754ce8835d0 description": "Hey Mercenary, I have a task for you. I have this good friend and he and I go way back. We both think very much the same and he decided to try and set up shop here in Tarkov and I have agreed to help him make a name for himself. Honestly, this shit hole could use more people like us. I promised him some goods and I need you to scout out the area and then leave the items I have for him. He is planning to pick up the supplies somewhere on Ground Zero.",
+  "68be2b1755144754ce8835d0 startedMessageText": "You need to do this very early in the morning since there is less activity in the area so please don't let me down. We need to make this person feel at home in Tarkov. If you succeed, I will introduce you to him.",
+  "68be2b1755144754ce8835d0 successMessageText": "Great work Mercenary! My guy is ready to meet you, but I will let him do the formal introduction.",
+  "68be2b1755144754ce8835d0 failMessageText": "Damn it! This isn't acceptable.",
+  "68be2b1755144754ce8835d0 acceptPlayerMessage": "Please don't let me down. We need to make this person feel at home in Tarkov. If you succeed, I will introduce you to him.",
+  "68be2b1755144754ce8835d0 completePlayerMessage": "You finished the quest.",
+  "68c1d84c6ad813879c6e4610": "Visit the doorway at the top of the staircase at Nakatani Basement.",
+  "68f3fceb709d8cc5468bcb7d": "Leave the Mysterious Backpack near the blocked staircase at Nakatani Basement."
+}

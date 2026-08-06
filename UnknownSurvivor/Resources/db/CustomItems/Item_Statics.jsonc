@@ -1,0 +1,58 @@
+{
+  "68941a8dbcd80caaeb507b96": {
+    "itemTplToClone": "5449016a4bdc2d6f028b456f",
+    "parentId": "543be5dd4bdc2deb348b4569",
+    "handbookParentId": "5b5f6fa186f77409407a7eb7",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_Statics/t_koin_currency.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.05,
+      "DiscardingBlock": false,
+      "CanSellOnRagfair": false,
+      "ItemSound": "jewlery",
+      "DiscardLimit": 0,
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "688bc098768b31618c13df7c",
+          "_parent": "68941a8dbcd80caaeb507b96",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [],
+                "ExcludedFilter": []
+              }
+            ],
+            "cellsH": 0,
+            "cellsV": 0,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Black Note",
+        "shortName": "BNT",
+        "description": "Encrypted digital credits passed through the Survivor’s hidden network. Said to be a relic of CIA black-budget projects, these tokens exist off the books, untraceable and deniable. In Tarkov, they buy more than goods — they buy silence, loyalty, and power."
+      }
+    },
+    "addtoInventorySlots": null,
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 648890,
+    "handbookPriceRoubles": 544098,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": null
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "697a9ac23a045d469703a227": {
+    "itemTplToClone": "6694f423909d2322a8073151",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b47574386f77428ca22b2f3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Item_RandomLootContainers/survivor_loot_crate.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "DiscardingBlock": false,
+      "BackgroundColor": "green",
+      "IsUndiscardable": false,
+      "DiscardLimit": 0,
+      "Width": 4,
+      "Height": 3,
+      "Weight": 4.000
+    },
+    "locales": {
+      "en": {
+        "name": "Survivor Crate (Tier 1)",
+        "shortName": "SC-T1",
+        "description": "An old crate that has a small amount of random medical items and provisions."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 33890,
+    "handbookPriceRoubles": 17443,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": null,
+    "isRandomLootContainer": true,
+    "randomLootContainerRewards": {
+      "rewardCount": 4,
+      "foundInRaid": true,
+      "rewardTplPool": {
+        "544fb62a4bdc2dfb738b4568": 100,
+        "57513f07245977207e26a311": 100,
+        "681ecd59ca9ea1f4e71b419f": 100, //Dirty Bandage
+        "6813a7d3fb53a6e8e17792a7": 100, //Heavy Gauze
+        "5448fee04bdc2dbc018b4567": 100,
+        "5448ff904bdc2d6f028b456e": 100,
+        "57347d692459774491567cf1": 100,
+        "60098af40accd37ef2175f27": 10,
+        "5751435d24597720a27126d1": 10,
+        "5751a25924597722c463c472": 25
+      }
+      }
+    }
+  }
