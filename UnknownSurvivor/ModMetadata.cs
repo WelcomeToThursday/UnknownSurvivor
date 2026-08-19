@@ -19,7 +19,7 @@ public class ModMetadata : IModMetadata
 
     public Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~3.0.0") }
+        { "com.wtt.commonlib", new Range("~3.0.0") } // TODO: lock to version of commonlib to after the TimeRestriction update
     };
     public string? Url { get; init; } = "https://github.com/WelcomeToThursday/UnknownSurvivor";
     public string License { get; init; } = "MIT";
