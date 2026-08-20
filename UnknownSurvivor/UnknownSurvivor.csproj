@@ -4,10 +4,32 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>UnknownSurvivor</RootNamespace>
+        <AssemblyName>UnknownSurvivorServerMod</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="WTT-ServerCommonLib" Version="3.0.3" />
+        <PackageReference Include="SPTarkov.Server.Core" Version="4.1.0" />
+        <PackageReference Include="WTT-ServerCommonLib" Version="3.0.4" />
     </ItemGroup>
+
+    <PropertyGroup>
+        <TarkovDir Condition=" '$(TarkovDir)' == '' ">$(SolutionDir)..\..\</TarkovDir>
+        <ServerModDir>$(TarkovDir)SPT_Runtime\user\mods\</ServerModDir>
+    </PropertyGroup>
+
+    <!-- This runs post build to copy the contents of the resource folder to a build directory -->
+    <Target Name="CopyResources" AfterTargets="PostBuildEvent">
+        <ItemGroup>
+            <OutputDLL Include="$(ProjectDir)$(OutDir)$(TargetName).dll" />
+            <Resources Include="$(ProjectDir)Resources\**\*.*" />
+        </ItemGroup>
+
+        <!-- Copy task to copy the dll and resources folder to the mods directory -->
+        <Copy
+                SourceFiles="@(OutputDLL);@(Resources);"
+                DestinationFolder="$(ServerModDir)UnknownSurvivor\%(RecursiveDir)"
+        />
+    </Target>
 
 </Project>

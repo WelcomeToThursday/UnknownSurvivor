@@ -1,0 +1,281 @@
+[
+  {
+    "ZoneId": "UnknownSurvivor_Crackhouse_Z1",
+    "ZoneName": "UnknownSurvivor_Crackhouse_Z1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "87.10223",
+      "Y": "4.476431",
+      "Z": "-153.072",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.08715574",
+      "Z": "0",
+      "W": "0.9961947"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "1.5",
+      "Z": "10",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "UnknownSurvivor_Skeleton_Z1",
+    "ZoneName": "UnknownSurvivor_Skeleton_Z1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "227.8182",
+      "Y": "7.82657",
+      "Z": "-16.56931",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.06540313",
+      "Z": "0",
+      "W": "0.9978589"
+    },
+    "Scale": {
+      "X": "4",
+      "Y": "1",
+      "Z": "6",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "UnknownSurvivor_ScavBase_Z1",
+    "ZoneName": "UnknownSurvivor_ScavBase_Z1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "198.4524",
+      "Y": "8.056046",
+      "Z": "-113.5289",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.02617695",
+      "Z": "0",
+      "W": "0.9996573"
+    },
+    "Scale": {
+      "X": "6.25",
+      "Y": "1",
+      "Z": "4.75",
+      "W": "0"
+    },
+    "GroupPosition": null,
+    "Salvage": null
+  },
+  {
+    "ZoneId": "UnknownSurvivor_PlaceItem_EastWing_322",
+    "ZoneName": "UnknownSurvivor_PlaceItem_EastWing_322",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-343.2385",
+      "Y": "2.092527",
+      "Z": "-87.2881",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3.5",
+      "Y": "1",
+      "Z": "3",
+      "W": "0"
+    }  
+  },
+  {
+    "ZoneId": "UnknownSurvivor_Kill_Reserve",
+    "ZoneName": "UnknownSurvivor_Kill_Reserve",
+    "ZoneLocation": "RezervBase",
+    "ZoneType": "botkillzone",
+    "FlareType": "",
+    "Position": {
+      "X": "-125.4263",
+      "Y": "6.316998",
+      "Z": "39.98947",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0.1305262",
+      "Z": "0",
+      "W": "0.9914449"
+    },
+    "Scale": {
+      "X": "100",
+      "Y": "26.75",
+      "Z": "129.5",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "UnknownSurvivor_PlaceItem_FN_EastWing_322",
+    "ZoneName": "UnknownSurvivor_PlaceItem_FN_EastWing_322",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-344.2656",
+      "Y": "2.631666",
+      "Z": "-84.92593",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "0.75",
+      "Y": "1",
+      "Z": "1",
+      "W": "0" 
+    }
+  },
+  {
+    "ZoneId": "UnknownSurvivor_VisitLocation_WestWing_322",
+    "ZoneName": "UnknownSurvivor_VisitLocation_WestWing_322",
+    "ZoneLocation": "Shoreline",
+    "ZoneType": "visit",
+    "FlareType": "",
+    "Position": {
+      "X": "-343.8534",
+      "Y": "2.051997",
+      "Z": "-89.73704",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "3.25",
+      "Y": "1",
+      "Z": "1",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "UnknownSurvivor_Mark_CrackHouse_Z2",
+    "ZoneName": "UnknownSurvivor_Mark_CrackHouse_Z2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "88.61535",
+      "Y": "4.976235",
+      "Z": "-152.9251",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.09801714",
+      "Z": "0",
+      "W": "0.9951847"
+    },
+    "Scale": {
+      "X": "6.75",
+      "Y": "1",
+      "Z": "20",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Survivor_WifiCrack_1",
+    "ZoneName": "Survivor_WifiCrack_1",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "82.40688",
+      "Y": "3.011189",
+      "Z": "-144.4822",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.1045285",
+      "Z": "0",
+      "W": "0.9945219"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "1",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "Survivor_WifiCrack_2",
+    "ZoneName": "Survivor_WifiCrack_2",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "84.95478",
+      "Y": "6.236952",
+      "Z": "-166.6522",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "2.5",
+      "Z": "1",
+      "W": "0"
+    }  
+  },
+  {
+    "ZoneId": "Survivor_WifiCrack_3",
+    "ZoneName": "Survivor_WifiCrack_3",
+    "ZoneLocation": "bigmap",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "89.27629",
+      "Y": "5.953112",
+      "Z": "-162.025",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1",
+      "Y": "1",
+      "Z": "1",
+      "W": "0"
+    }
+  }
+]

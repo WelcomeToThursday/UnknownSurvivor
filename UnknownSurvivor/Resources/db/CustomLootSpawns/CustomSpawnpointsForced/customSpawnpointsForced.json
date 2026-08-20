@@ -1,0 +1,37 @@
+{
+  "bigmap": [
+    {
+      "locationId": "(81.1023 5.4413 -166.33)",
+      "probability": 1,
+      "template": {
+        "Id": "quest_item_BuildingBridges_3 [c2f91b84-18f4-4d4d-a6d8-91e6e3b8a2f7]",
+        "IsContainer": false,
+        "useGravity": false,
+        "randomRotation": false,
+        "Position": {
+          "x": 81.1023,
+          "y": 5.4413,
+          "z": -166.33
+        },
+        "Rotation": {
+          "x": 89.8209,
+          "y": 10.1285,
+          "z": 268.27
+        },
+        "IsGroupPosition": false,
+        "GroupPositions": [],
+        "IsAlwaysSpawn": false,
+        "Root": "6a599a2050ca97008452c22d",
+        "Items": [
+          {
+            "_id": "6a599a2050ca97008452c22d",
+            "_tpl": "590c621186f774138d11ea29",
+            "upd": {
+              "StackObjectsCount": 1
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
