@@ -59,7 +59,7 @@ public class UnknownSurvivorHelper(ISptLogger<UnknownSurvivorHelper> logger, ICl
     /// <param name="baseJson">json file for trader (db/base.json)</param>
     /// <param name="firstName">First name of trader</param>
     /// <param name="description">Flavor text of whom the trader is</param>
-    public void AddTraderToLocales(TraderBase baseJson, string description)
+    public void AddTraderToLocales(TraderBase baseJson, string firstName, string description)
     {
         // For each language, add locale for the new trader
         var locales = localeTable.Global;
@@ -76,7 +76,7 @@ public class UnknownSurvivorHelper(ISptLogger<UnknownSurvivorHelper> logger, ICl
                 {
                     lazyloadedLocaleData?.Add($"{newTraderId} Location", location);
                 }
-
+                lazyloadedLocaleData?.Add($"{newTraderId} Nickname", firstName);
                 lazyloadedLocaleData?.Add($"{newTraderId} Description", description);
                 return lazyloadedLocaleData;
             });
