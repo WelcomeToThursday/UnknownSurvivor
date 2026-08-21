@@ -42,7 +42,7 @@ public class UnknownSurvivor(
 
         ragfairConfig.Traders.TryAdd(traderBase.Id, true);
         ush.AddTraderWithEmptyAssortToDb(traderBase);
-        ush.AddTraderToLocales(traderBase, "Ex-Handler...");
+        ush.AddTraderToLocales(traderBase, "Survivor", "Ex-Handler...");
          
         await wttServerCommonLib.CustomQuestService.CreateCustomQuests(assembly);
         
