@@ -124,7 +124,7 @@
     "declinePlayerMessage": "6767a1d14b6b88c9e9b07d84 declinePlayerMessage",
     "description": "6767a1d14b6b88c9e9b07d84 description",
     "failMessageText": "6767a1d14b6b88c9e9b07d84 failMessageText",
-    "image": "/files/quest/icon/IveGotTheGoods_quest.png",
+    "image": "/files/quest/icon/Building_Bridges.png",
     "instantComplete": false,
     "isKey": false,
     "location": "56f40101d2720b2a4d8b45d6",
@@ -139,27 +139,15 @@
           "id": "6767a2c8d30ddf00bc727791",
           "index": 0,
           "type": "Experience",
-          "value": 5000
+          "value": 4525
         },
         {
-          "availableInGameEditions": [
-            "unheard_edition"
-          ],
+          "availableInGameEditions": [],
           "id": "6767a2e7d0f760ea600f02ed",
           "index": 1,
           "target": "6758f03d55bf9943a7b14e47",
           "type": "TraderStanding",
-          "value": 0.05
-        },
-        {
-          "availableInGameEditions": [
-            "standard"
-          ],
-          "id": "67817d8d921c55a001500b5b",
-          "index": 1,
-          "target": "6758f03d55bf9943a7b14e47",
-          "type": "TraderStanding",
-          "value": 0.15
+          "value": 0.02
         },
         {
           "findInRaid": false,
@@ -325,7 +313,7 @@
           "status": [
             4
           ],
-          "target": "67817dd744d985f05ed8a0e5",
+          "target": "6767a1d14b6b88c9e9b07d84",
           "visibilityConditions": []
         }
       ],
@@ -334,7 +322,7 @@
     "declinePlayerMessage": "67817dd744d985f05ed8a0e5 declinePlayerMessage",
     "description": "67817dd744d985f05ed8a0e5 description",
     "failMessageText": "67817dd744d985f05ed8a0e5 failMessageText",
-    "image": "/files/quest/icon/IveGotTheGoods_quest.png",
+    "image": "/files/quest/icon/Building_Bridges.png",
     "instantComplete": false,
     "isKey": false,
     "location": "56f40101d2720b2a4d8b45d6",
@@ -544,7 +532,7 @@
     "declinePlayerMessage": "678357b492116f3d9daa65fb declinePlayerMessage",
     "description": "678357b492116f3d9daa65fb description",
     "failMessageText": "678357b492116f3d9daa65fb failMessageText",
-    "image": "/files/quest/icon/Downtime_quest.png",
+    "image": "/files/quest/icon/Building_Bridges.png",
     "instantComplete": false,
     "isKey": false,
     "location": "56f40101d2720b2a4d8b45d6",
@@ -587,9 +575,26 @@
           "value": 50000
         },
         {
+          "findInRaid": false,
+          "id": "6a939419f90db97686bb3476",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6a93941d5df9dd5db7bb3477",
+              "_tpl": "697a9ac23a045d469703a227",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6a93941d5df9dd5db7bb3477",
+          "type": "Item",
+          "value": 1
+        },
+        {
           "availableInGameEditions": [],
           "id": "67835ab253fdb9559c763a22",
-          "index": 3,
+          "index": 4,
           "items": [
             {
               "_id": "676660a7d9635cc265bc37ba",

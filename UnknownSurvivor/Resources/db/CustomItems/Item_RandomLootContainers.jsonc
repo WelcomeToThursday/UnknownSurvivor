@@ -21,7 +21,7 @@
       "en": {
         "name": "Survivor Crate (Tier 1)",
         "shortName": "SC-T1",
-        "description": "An old crate that has a small amount of random medical items and provisions."
+        "description": "An old crate that has a small amount of random supplies needed for survival."
       }
     },
     "addtoInventorySlots": [],
@@ -38,19 +38,25 @@
     "staticLootContainers": null,
     "isRandomLootContainer": true,
     "randomLootContainerRewards": {
-      "rewardCount": 4,
+      "rewardCount": 5,
       "foundInRaid": true,
       "rewardTplPool": {
         "544fb62a4bdc2dfb738b4568": 100,
         "57513f07245977207e26a311": 100,
-        "681ecd59ca9ea1f4e71b419f": 100, //Dirty Bandage
-        "6813a7d3fb53a6e8e17792a7": 100, //Heavy Gauze
+       // "681ecd59ca9ea1f4e71b419f": 100, //Dirty Bandage (WTT MAIN)
+       // "6813a7d3fb53a6e8e17792a7": 100, //Heavy Gauze (WTT MAIN)
         "5448fee04bdc2dbc018b4567": 100,
         "5448ff904bdc2d6f028b456e": 100,
         "57347d692459774491567cf1": 100,
         "60098af40accd37ef2175f27": 10,
         "5751435d24597720a27126d1": 10,
-        "5751a25924597722c463c472": 25
+        "5751a25924597722c463c472": 25,
+        "59e35ef086f7741777737012": 75,
+        "57347c5b245977448d35f6e1": 75,
+        "57347c1124597737fb1379e3": 75,
+        "5c13cef886f774072e618e82": 85,
+        "5734795124597738002c6176": 75
+        
       }
       }
     }

@@ -47,6 +47,10 @@
 			"Y": "1",
 			"Z": "1.5",
 			"W": "0"
+		},
+		"TimeRestriction": {
+			"from": 15,
+			"to": 20
 		}
 	},
 	{
@@ -97,122 +101,10 @@
 			"Y": "1",
 			"Z": "1.5",
 			"W": "0"
-		}
-	},
-	{
-		"ZoneId": "Survivor_WifiCrack_1",
-		"ZoneName": "Survivor_WifiCrack_1",
-		"ZoneLocation": "woods",
-		"ZoneType": "placeitem",
-		"FlareType": "",
-		"Position": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Rotation": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Scale": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
 		},
 		"TimeRestriction": {
-			"from": 10,
-			"to": 15
-		}
-	},
-	{
-		"ZoneId": "Survivor_WifiCrack_2",
-		"ZoneName": "Survivor_WifiCrack_2",
-		"ZoneLocation": "woods",
-		"ZoneType": "placeitem",
-		"FlareType": "",
-		"Position": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Rotation": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Scale": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"TimeRestriction": {
-			"from": 10,
-			"to": 15
-		}
-	},
-	{
-		"ZoneId": "Survivor_WifiCrack_3",
-		"ZoneName": "Survivor_WifiCrack_3",
-		"ZoneLocation": "woods",
-		"ZoneType": "placeitem",
-		"FlareType": "",
-		"Position": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Rotation": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Scale": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"TimeRestriction": {
-			"from": 10,
-			"to": 15
-		}
-	},
-	{
-		"ZoneId": "Survivor_FencePlace_Quest",
-		"ZoneName": "Survivor_FencePlace_Quest",
-		"ZoneLocation": "woods",
-		"ZoneType": "placeitem",
-		"FlareType": "",
-		"Position": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Rotation": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"Scale": {
-			"X": "0",
-			"Y": "0",
-			"Z": "0",
-			"W": "0"
-		},
-		"TimeRestriction": {
-			"from": 1,
-			"to": 3
+			"from": 15,
+			"to": 20
 		}
 	}
 ]

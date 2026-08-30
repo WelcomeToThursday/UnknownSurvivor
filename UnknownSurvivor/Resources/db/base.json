@@ -56,8 +56,8 @@
         },
         {
             "minLevel": 13,
-            "minSalesSum": 500000,
-            "minStanding": 0.30,
+            "minSalesSum": 625000,
+            "minStanding": 0.20,
             "buy_price_coef": 50,
             "repair_price_coef": 470,
             "insurance_price_coef": "1",

@@ -31,7 +31,7 @@
 					"parentId": "",
 					"conditionType": "Level",
 					"compareMethod": ">=",
-					"value": 5,
+					"value": 3,
 					"dynamicLocale": false,
 					"globalQuestCounterId": "",
 					"visibilityConditions": []

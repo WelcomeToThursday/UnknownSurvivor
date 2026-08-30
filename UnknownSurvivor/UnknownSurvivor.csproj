@@ -5,11 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>UnknownSurvivor</RootNamespace>
-        <AssemblyName>UnknownSurvivorServerMod</AssemblyName>
+        <AssemblyName>UnknownSurvivor</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="SPTarkov.Server.Core" Version="4.1.0" />
+        <PackageReference Include="SPTushonka.Common" Version="4.1.3" />
+        <PackageReference Include="SPTushonka.DI" Version="4.1.3" />
+        <PackageReference Include="SPTushonka.Server.Core" Version="4.1.3" />
         <PackageReference Include="WTT-ServerCommonLib" Version="3.0.4" />
     </ItemGroup>
 

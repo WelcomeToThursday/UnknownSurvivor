@@ -11,7 +11,7 @@ using Path = System.IO.Path;
 
 namespace UnknownSurvivor;
 
-[Injectable(TypePriority = OnLoadOrder.TraderRegistration - 1), UsedImplicitly]
+[Injectable(TypePriority = OnLoadOrder.TraderRegistration + 2), UsedImplicitly]
 public class UnknownSurvivor(
     WTTServerCommonLib.WTTServerCommonLib wttServerCommonLib, 
     ModHelper modHelper, 
@@ -32,6 +32,7 @@ public class UnknownSurvivor(
         await wttServerCommonLib.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttServerCommonLib.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttServerCommonLib.CustomQuestZoneService.CreateCustomQuestZones(assembly);
+        await wttServerCommonLib.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
         
         var traderImagePath = Path.Combine(pathToMod, "res/unknownsurvivor.jpg");
         var traderBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "db/base.json");
