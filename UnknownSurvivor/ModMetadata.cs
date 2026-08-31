@@ -13,7 +13,7 @@ public class ModMetadata : IModMetadata
     public string Author { get; init; } = "Dsnyder";
     public List<string>? Contributors { get; init; }
     public Version Version { get; init; } = new(typeof(ModMetadata).Assembly.GetName().Version!.ToString(3));
-    public Range SptVersion { get; init; } = new("~4.1.0");
+    public Range SptVersion { get; init; } = new("~4.1.3");
     public bool HasPrepatcher { get; init; } = false;
     public List<string>? Incompatibilities { get; init; }
 
